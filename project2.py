@@ -1,0 +1,6 @@
+manager = MemeRequestManager()
+manager.add_request('meme1')
+manager.add_request('meme2')
+manager.view_requests()
+manager.cancel_request('meme1')
+manager.view_requests()
